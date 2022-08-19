@@ -1,0 +1,161 @@
+/* Universal Styling */
+h1 {
+    font-size: 50px;
+    font-family: "Koulen", "Georgia", sans-serif;
+    color: navy;
+    margin: 15px 0;
+}
+
+h2 {
+    color: navy;
+}
+
+h2 {
+    font-family: "Kanit", "Georgia", serif;
+}
+
+h3 {
+    font-family: "Abel", "Georgia", sans-serif;
+}
+
+p {
+    font-family: "Abel", "Georgia", serif;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+ul * {
+    font-family: "Abel", "Georgia", sans-serif;
+}
+
+
+/* Header section styling */
+header {
+    background-color: #FFA500;
+    padding: 10px;
+}
+nav {
+    text-align: left;
+}
+
+.nav-list {
+    margin: 0 10px;
+    padding: 0;
+}
+
+.nav-link {
+    display: inline-block;
+}
+
+.nav-link a {
+    padding: 5px 30px;
+    margin: 10px 5px;
+    text-align: center;
+    background-color: navy;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-family: "Koulen", "Arial", sans-serif;
+    border-radius: 20px;
+}
+
+.nav-link a:hover {
+    color: turquoise;
+}
+
+.nav-link a:active {
+    background-color: orange;
+}
+
+/* Main Section Styling */
+
+#colors {
+    margin: 30px 0;
+    border: 1px solid navy;
+    padding: 30px 20px;
+}
+
+.grid-container {
+    display: grid;
+}
+
+#colors .grid-container {
+    grid-template-columns: auto auto auto;
+}
+
+#colors .grid-element {
+    margin: 0 5px;
+    text-align: center;
+    color: white;
+    font-family: "Abel", "Georgia", serif;
+}
+
+#navy-box {
+    background-color: navy;
+}
+
+#orange-box {
+    background-color: orange;
+}
+
+#teal-box {
+    background-color: turquoise;
+}
+
+#fonts {
+    margin: 30px 0;
+    border: 1px solid navy;
+    padding: 30px 20px;
+}
+
+#fonts h3 {
+    text-decoration: underline;
+}
+
+#fonts .grid-container {
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+}
+
+#fonts .grid-element {
+    margin: 5px 5px;
+    text-align: left;
+    color: navy;
+    background-color: white;
+    border: 1px solid navy;
+    padding: 10px 20px;
+}
+
+
+#abel-box h3, #abel-box p {
+    font-family: "Abel";
+}
+
+#kanit-box h3, #kanit-box p {
+    font-family: "Kanit";
+}
+
+#koulen-box h3, #koulen-box p {
+    font-family: "Koulen";
+}
+
+#text-styles * {
+    color: navy;
+}
+
+#text-styles {
+    margin: 30px 0;
+    border: 1px solid navy;
+    padding: 30px 20px;
+}
+
+/* Footer Styling */
+footer {
+    background-color: navy;
+    padding: 40px;
+    text-align: right;
+}
+
+footer * {
+    color: white;
+}
